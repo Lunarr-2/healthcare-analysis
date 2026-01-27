@@ -1,0 +1,796 @@
+patient_id,age,gender,insurance_type,chronic_condition,visit_type,length_of_stay_days,treatment_cost_usd,claim_status,readmitted_30_days,patient_satisfaction_score,satisfaction_provided,treatment_cost_provided
+1,69.0,male,public,heart disease,inpatient,0.9,2300.25,approved,no,4.0,yes,yes
+2,32.0,male,public,diabetes,emergency,0.6,5696.66,approved,yes,4.7,yes,yes
+3,89.0,female,unknown,unknown,emergency,1.9,1699.14,denied,no,4.2,yes,yes
+4,78.0,male,private,unknown,emergency,0.0,4684.2,denied,no,4.2,yes,yes
+5,38.0,male,public,diabetes,outpatient,0.1,1865.43,pending,no,2.8,yes,yes
+6,41.0,male,private,diabetes,outpatient,2.4,5051.57,approved,no,3.2,yes,yes
+7,20.0,male,private,hypertension,outpatient,2.2,2905.78,approved,yes,2.9,yes,yes
+8,39.0,male,public,unknown,outpatient,15.7,2826.71,approved,no,1.8,yes,yes
+9,70.0,male,private,heart disease,outpatient,0.7,3608.7,denied,yes,4.1,yes,yes
+10,19.0,female,public,unknown,inpatient,0.9,813.15,approved,no,3.6,yes,yes
+11,47.0,male,public,unknown,emergency,0.4,5444.18,denied,yes,4.1,yes,yes
+12,55.0,male,unknown,unknown,emergency,7.5,,approved,no,3.8,yes,no
+13,19.0,female,private,unknown,inpatient,4.5,2779.94,pending,no,4.0,yes,yes
+15,77.0,male,public,diabetes,outpatient,7.0,5057.82,approved,no,3.8,yes,yes
+17,50.0,male,public,diabetes,outpatient,1.8,1283.51,approved,yes,3.6,yes,yes
+18,75.0,male,private,unknown,emergency,1.2,6688.16,approved,yes,4.5,yes,yes
+19,39.0,male,private,hypertension,outpatient,2.7,2714.96,approved,no,2.8,yes,yes
+20,66.0,male,private,heart disease,emergency,1.8,2281.73,approved,no,2.3,yes,yes
+21,76.0,female,private,unknown,outpatient,1.8,6777.58,approved,no,5.0,yes,yes
+22,59.0,male,public,diabetes,emergency,8.3,4720.12,approved,yes,5.0,yes,yes
+23,77.0,female,uninsured,unknown,emergency,12.4,4014.86,approved,no,2.2,yes,yes
+24,32.0,female,private,unknown,emergency,4.8,1558.48,approved,no,3.8,yes,yes
+27,64.0,female,public,diabetes,inpatient,0.5,5261.02,denied,no,5.0,yes,yes
+28,79.0,female,private,unknown,inpatient,0.2,4492.18,approved,no,3.0,yes,yes
+29,68.0,female,private,hypertension,emergency,3.5,4942.19,pending,no,3.0,yes,yes
+30,72.0,female,public,diabetes,emergency,3.9,2843.77,approved,no,3.8,yes,yes
+31,81.0,female,public,hypertension,outpatient,0.1,2824.7,approved,yes,3.0,yes,yes
+32,20.0,male,private,diabetes,outpatient,7.9,2799.11,approved,no,1.6,yes,yes
+33,68.0,female,private,diabetes,outpatient,0.3,2350.1,approved,no,3.6,yes,yes
+36,56.0,male,private,multiple,inpatient,0.6,3010.63,approved,no,,no,yes
+37,35.0,female,uninsured,unknown,inpatient,0.2,,approved,no,4.2,yes,no
+38,21.0,male,unknown,multiple,emergency,1.2,,approved,no,3.0,yes,no
+39,77.0,female,private,diabetes,outpatient,4.4,3657.59,denied,yes,3.9,yes,yes
+40,31.0,male,private,unknown,outpatient,1.6,3834.72,approved,no,2.6,yes,yes
+41,26.0,male,public,unknown,outpatient,3.2,6544.6,approved,yes,3.4,yes,yes
+42,70.0,female,private,unknown,outpatient,2.6,3653.47,denied,no,3.8,yes,yes
+43,19.0,female,private,heart disease,outpatient,0.1,7921.78,approved,no,3.8,yes,yes
+44,77.0,male,private,unknown,outpatient,13.4,4205.38,denied,no,,no,yes
+45,88.0,female,private,unknown,inpatient,0.1,2605.48,approved,no,2.9,yes,yes
+46,61.0,male,public,unknown,emergency,10.3,6199.17,approved,yes,4.0,yes,yes
+47,25.0,male,public,unknown,outpatient,2.4,3340.95,pending,no,4.5,yes,yes
+48,64.0,male,private,diabetes,outpatient,9.9,200.0,approved,no,3.6,yes,yes
+49,52.0,male,private,unknown,outpatient,0.4,,denied,no,3.6,yes,no
+50,53.0,male,public,hypertension,outpatient,2.0,3001.65,approved,no,,no,yes
+51,67.0,female,private,unknown,inpatient,0.6,6713.09,approved,yes,3.2,yes,yes
+52,21.0,male,private,unknown,outpatient,0.2,1704.87,pending,no,5.0,yes,yes
+53,19.0,male,uninsured,diabetes,outpatient,2.9,2834.69,approved,no,,no,yes
+55,71.0,male,private,multiple,outpatient,2.7,,approved,no,,no,no
+56,21.0,female,private,diabetes,emergency,0.4,3157.09,approved,no,5.0,yes,yes
+58,80.0,female,private,diabetes,emergency,4.6,4203.49,pending,no,1.9,yes,yes
+59,35.0,male,private,unknown,outpatient,1.7,3441.4,approved,no,4.8,yes,yes
+60,61.0,male,private,unknown,outpatient,3.0,1964.34,approved,no,2.6,yes,yes
+62,79.0,female,uninsured,hypertension,inpatient,5.6,1871.06,denied,no,4.7,yes,yes
+63,31.0,male,public,multiple,outpatient,1.2,,approved,no,4.1,yes,no
+64,65.0,female,private,diabetes,outpatient,3.5,5368.07,approved,no,4.0,yes,yes
+65,32.0,male,private,diabetes,emergency,9.8,5098.79,approved,no,4.1,yes,yes
+66,89.0,female,public,unknown,emergency,3.9,5371.35,approved,no,,no,yes
+67,79.0,male,private,unknown,outpatient,2.0,3509.0,approved,yes,4.3,yes,yes
+68,57.0,male,private,hypertension,outpatient,3.0,3014.74,approved,no,2.8,yes,yes
+69,70.0,male,uninsured,unknown,outpatient,4.0,3051.24,approved,no,5.0,yes,yes
+71,43.0,female,public,hypertension,outpatient,0.1,200.0,denied,no,4.2,yes,yes
+73,58.0,male,private,diabetes,outpatient,5.0,1725.31,approved,no,4.7,yes,yes
+74,46.0,female,public,hypertension,inpatient,1.0,6219.78,approved,no,4.6,yes,yes
+75,32.0,female,private,unknown,emergency,3.9,2545.08,approved,yes,3.9,yes,yes
+76,62.0,female,private,hypertension,outpatient,1.4,228.02,denied,no,3.9,yes,yes
+79,26.0,male,private,diabetes,inpatient,0.6,2386.14,approved,no,2.9,yes,yes
+80,18.0,female,public,multiple,emergency,9.5,2179.94,approved,no,,no,yes
+82,80.0,female,public,hypertension,emergency,3.2,4917.12,approved,yes,5.0,yes,yes
+83,28.0,female,uninsured,unknown,inpatient,1.8,3947.57,approved,no,4.1,yes,yes
+85,52.0,male,public,hypertension,outpatient,2.9,1303.52,pending,no,4.1,yes,yes
+86,52.0,female,public,unknown,emergency,2.5,3162.21,denied,no,3.8,yes,yes
+88,22.0,female,private,hypertension,outpatient,3.0,4097.31,approved,no,2.4,yes,yes
+89,58.0,female,public,diabetes,outpatient,4.4,3821.77,approved,yes,3.0,yes,yes
+90,45.0,female,private,hypertension,outpatient,15.4,1654.81,approved,no,3.7,yes,yes
+91,24.0,male,public,unknown,outpatient,0.0,200.0,approved,no,2.4,yes,yes
+92,89.0,female,uninsured,heart disease,outpatient,3.9,7099.24,approved,no,3.3,yes,yes
+94,51.0,female,private,heart disease,outpatient,1.7,200.0,approved,no,3.2,yes,yes
+96,65.0,male,private,diabetes,outpatient,1.6,200.0,approved,yes,3.1,yes,yes
+97,40.0,female,public,diabetes,outpatient,1.3,1890.4,denied,no,3.9,yes,yes
+99,54.0,male,uninsured,diabetes,outpatient,3.9,,approved,no,3.7,yes,no
+101,52.0,male,unknown,hypertension,inpatient,2.7,2621.68,pending,no,3.9,yes,yes
+102,82.0,female,public,diabetes,emergency,8.4,3397.16,pending,yes,4.1,yes,yes
+103,64.0,female,private,unknown,inpatient,1.3,200.0,denied,yes,3.2,yes,yes
+104,20.0,male,public,hypertension,inpatient,0.8,2598.5,approved,no,4.3,yes,yes
+105,18.0,male,private,diabetes,outpatient,3.2,2600.44,approved,no,4.3,yes,yes
+106,22.0,male,private,unknown,emergency,0.7,3806.66,denied,yes,4.2,yes,yes
+108,44.0,female,unknown,heart disease,outpatient,0.8,200.0,approved,no,3.3,yes,yes
+111,59.0,female,unknown,hypertension,outpatient,0.9,2493.27,approved,no,5.0,yes,yes
+112,68.0,female,private,diabetes,emergency,1.9,1770.8,approved,no,3.4,yes,yes
+113,80.0,female,private,unknown,outpatient,0.1,511.31,approved,no,,no,yes
+115,21.0,male,private,diabetes,inpatient,1.2,4011.3,approved,no,3.1,yes,yes
+116,40.0,male,private,diabetes,emergency,4.1,5091.71,denied,no,3.1,yes,yes
+117,32.0,female,private,unknown,outpatient,1.6,2436.69,approved,no,3.2,yes,yes
+118,60.0,male,public,diabetes,emergency,0.7,3358.57,pending,no,3.9,yes,yes
+120,53.0,male,public,unknown,outpatient,0.4,3494.56,approved,no,3.9,yes,yes
+121,30.0,female,public,hypertension,inpatient,1.7,5115.91,denied,no,3.8,yes,yes
+122,49.0,female,private,heart disease,emergency,1.1,2265.09,denied,yes,4.8,yes,yes
+123,88.0,female,private,diabetes,outpatient,7.3,4932.03,approved,no,3.8,yes,yes
+124,76.0,male,uninsured,unknown,emergency,0.2,2402.16,pending,no,3.4,yes,yes
+125,45.0,female,public,diabetes,inpatient,3.6,200.0,denied,no,3.0,yes,yes
+127,59.0,male,public,hypertension,outpatient,1.2,2559.39,approved,yes,3.5,yes,yes
+129,79.0,female,private,multiple,emergency,7.2,3882.99,pending,no,3.3,yes,yes
+130,74.0,male,private,unknown,emergency,0.8,1712.95,denied,yes,4.8,yes,yes
+131,23.0,male,public,unknown,emergency,0.3,9685.28,approved,no,3.3,yes,yes
+132,45.0,male,private,diabetes,inpatient,1.2,571.12,approved,no,4.6,yes,yes
+133,45.0,female,private,unknown,emergency,0.3,1074.15,approved,no,3.6,yes,yes
+134,61.0,female,private,unknown,outpatient,0.4,5239.1,approved,no,2.8,yes,yes
+135,47.0,female,public,unknown,outpatient,2.6,3233.96,pending,no,3.5,yes,yes
+136,79.0,male,public,unknown,outpatient,0.0,5198.4,approved,no,3.8,yes,yes
+137,79.0,male,private,unknown,outpatient,0.1,4260.78,approved,no,,no,yes
+138,18.0,female,public,multiple,emergency,3.8,2335.39,pending,yes,3.7,yes,yes
+139,44.0,female,private,unknown,inpatient,1.3,741.82,approved,no,3.5,yes,yes
+140,79.0,male,public,hypertension,outpatient,0.4,5642.17,approved,yes,3.2,yes,yes
+141,20.0,male,private,hypertension,outpatient,0.9,923.1,approved,yes,3.8,yes,yes
+142,87.0,male,uninsured,heart disease,emergency,3.1,4617.81,approved,no,4.2,yes,yes
+144,44.0,female,unknown,heart disease,outpatient,2.0,,pending,no,4.8,yes,no
+145,26.0,male,private,diabetes,outpatient,0.4,2891.7,approved,no,1.0,yes,yes
+146,79.0,female,private,diabetes,outpatient,2.7,1532.55,approved,no,,no,yes
+147,54.0,female,private,diabetes,inpatient,1.1,4425.49,approved,no,4.2,yes,yes
+148,68.0,female,private,hypertension,outpatient,3.0,200.0,approved,no,3.3,yes,yes
+149,61.0,male,public,unknown,outpatient,5.0,4931.45,approved,no,2.1,yes,yes
+150,41.0,male,public,hypertension,outpatient,2.8,3738.95,approved,no,3.7,yes,yes
+151,76.0,male,unknown,diabetes,inpatient,1.1,,approved,no,3.9,yes,no
+152,49.0,male,uninsured,hypertension,outpatient,0.9,3984.6,denied,no,2.9,yes,yes
+153,69.0,female,private,multiple,outpatient,1.2,752.89,approved,no,,no,yes
+154,79.0,male,public,unknown,outpatient,0.5,,approved,no,4.6,yes,no
+155,75.0,male,public,multiple,outpatient,0.6,4437.15,denied,no,3.9,yes,yes
+156,69.0,female,public,unknown,outpatient,4.7,6133.09,approved,no,2.6,yes,yes
+158,56.0,female,uninsured,unknown,outpatient,1.7,1395.04,approved,no,3.1,yes,yes
+159,19.0,female,public,unknown,outpatient,2.7,5004.65,approved,no,3.2,yes,yes
+160,20.0,female,private,diabetes,emergency,2.7,4217.78,approved,no,4.0,yes,yes
+161,73.0,female,private,unknown,outpatient,0.2,9426.22,approved,no,,no,yes
+163,19.0,female,public,heart disease,outpatient,0.6,,approved,no,3.4,yes,no
+166,18.0,male,public,heart disease,inpatient,3.8,,denied,no,4.7,yes,no
+167,36.0,male,private,hypertension,emergency,2.6,3171.22,pending,no,2.5,yes,yes
+168,19.0,male,uninsured,unknown,outpatient,0.0,3265.57,pending,no,3.6,yes,yes
+170,61.0,female,private,hypertension,outpatient,2.8,2171.0,approved,no,4.5,yes,yes
+172,87.0,female,private,hypertension,emergency,6.0,,approved,no,,no,no
+173,49.0,male,private,unknown,emergency,1.1,6459.97,approved,no,4.3,yes,yes
+174,85.0,male,private,unknown,emergency,1.0,3121.22,approved,no,2.0,yes,yes
+175,72.0,male,unknown,diabetes,outpatient,0.9,4849.46,approved,no,4.0,yes,yes
+176,73.0,female,public,diabetes,outpatient,1.2,3180.87,approved,no,4.7,yes,yes
+177,34.0,male,private,diabetes,emergency,2.4,4779.52,pending,no,3.9,yes,yes
+178,55.0,female,public,hypertension,outpatient,3.7,,approved,no,3.4,yes,no
+179,41.0,female,unknown,unknown,outpatient,3.3,4646.95,approved,no,2.8,yes,yes
+180,86.0,male,public,unknown,outpatient,4.9,4956.47,approved,no,4.7,yes,yes
+181,87.0,male,private,heart disease,outpatient,6.5,1366.69,approved,no,,no,yes
+182,28.0,male,private,hypertension,inpatient,5.1,5704.75,approved,no,3.3,yes,yes
+183,33.0,male,uninsured,unknown,outpatient,0.1,3167.05,approved,no,3.3,yes,yes
+184,76.0,male,public,hypertension,inpatient,4.0,2560.41,approved,no,4.7,yes,yes
+185,87.0,female,public,unknown,outpatient,0.7,2079.98,denied,no,,no,yes
+186,20.0,female,unknown,diabetes,emergency,0.4,4096.4,denied,no,2.4,yes,yes
+187,37.0,male,private,unknown,outpatient,3.1,3490.76,pending,no,3.6,yes,yes
+189,53.0,female,public,hypertension,outpatient,0.2,4280.44,approved,no,4.0,yes,yes
+190,36.0,female,public,unknown,outpatient,0.4,4717.17,approved,no,3.8,yes,yes
+191,84.0,female,public,heart disease,outpatient,0.0,9052.57,approved,no,3.4,yes,yes
+193,37.0,female,private,unknown,emergency,0.1,2030.85,approved,no,3.4,yes,yes
+194,88.0,male,private,unknown,outpatient,0.7,200.0,denied,no,,no,yes
+195,69.0,female,private,unknown,outpatient,1.6,1109.37,approved,no,3.9,yes,yes
+196,50.0,female,private,unknown,outpatient,1.3,5970.7,approved,yes,,no,yes
+197,57.0,male,public,diabetes,outpatient,7.3,4939.85,approved,no,5.0,yes,yes
+198,56.0,female,private,hypertension,emergency,0.1,800.03,pending,no,2.7,yes,yes
+199,18.0,male,private,diabetes,inpatient,2.2,8428.42,approved,yes,3.7,yes,yes
+200,28.0,male,private,unknown,outpatient,3.4,4153.53,denied,no,,no,yes
+201,74.0,female,private,unknown,outpatient,8.1,4420.63,denied,no,4.3,yes,yes
+202,67.0,male,private,unknown,outpatient,2.9,7988.45,pending,no,3.4,yes,yes
+203,40.0,male,private,unknown,emergency,4.9,6978.91,denied,no,,no,yes
+204,48.0,female,public,hypertension,outpatient,0.3,5062.27,denied,no,4.2,yes,yes
+205,59.0,male,unknown,unknown,emergency,1.5,5158.43,approved,no,4.4,yes,yes
+208,77.0,female,private,diabetes,emergency,0.5,4073.59,approved,yes,2.7,yes,yes
+209,19.0,male,private,hypertension,outpatient,0.5,4648.64,pending,no,4.6,yes,yes
+211,65.0,female,public,diabetes,outpatient,0.2,1569.16,pending,yes,3.0,yes,yes
+212,29.0,male,private,diabetes,outpatient,0.6,2967.74,approved,no,4.4,yes,yes
+213,86.0,male,private,diabetes,inpatient,10.1,1524.13,approved,yes,2.9,yes,yes
+214,54.0,male,public,unknown,inpatient,1.7,3628.75,pending,no,4.0,yes,yes
+215,49.0,female,unknown,unknown,emergency,3.0,200.0,approved,no,4.1,yes,yes
+216,26.0,male,private,unknown,outpatient,3.9,4182.08,approved,no,3.5,yes,yes
+218,65.0,male,public,unknown,outpatient,0.5,2693.05,approved,no,4.5,yes,yes
+219,20.0,male,private,heart disease,inpatient,0.7,4508.2,approved,no,3.7,yes,yes
+220,37.0,male,uninsured,hypertension,outpatient,1.1,5082.29,approved,no,3.3,yes,yes
+221,41.0,female,public,unknown,inpatient,3.0,4844.72,approved,no,2.8,yes,yes
+222,71.0,female,private,unknown,inpatient,1.5,4139.47,denied,no,3.5,yes,yes
+223,50.0,male,public,heart disease,emergency,0.0,1261.45,denied,yes,2.9,yes,yes
+225,89.0,male,private,hypertension,outpatient,7.6,1307.2,approved,no,3.4,yes,yes
+226,53.0,female,private,unknown,inpatient,5.0,,denied,no,4.4,yes,no
+227,55.0,female,private,unknown,outpatient,5.2,4755.41,approved,no,3.9,yes,yes
+228,42.0,male,public,unknown,inpatient,4.8,6217.8,approved,yes,,no,yes
+229,35.0,female,private,unknown,outpatient,1.2,3549.74,approved,no,2.2,yes,yes
+233,78.0,female,public,heart disease,outpatient,3.1,226.45,approved,no,3.8,yes,yes
+235,50.0,female,unknown,diabetes,outpatient,4.7,5634.83,approved,yes,4.7,yes,yes
+237,50.0,male,private,heart disease,outpatient,0.9,3433.92,denied,no,3.2,yes,yes
+238,31.0,female,private,unknown,inpatient,5.0,7621.92,pending,no,4.1,yes,yes
+239,38.0,male,private,heart disease,inpatient,0.3,3303.7,approved,no,3.6,yes,yes
+240,65.0,male,private,hypertension,outpatient,2.7,3941.83,approved,no,2.9,yes,yes
+241,37.0,male,private,unknown,emergency,2.0,3404.3,approved,no,3.6,yes,yes
+244,84.0,female,private,diabetes,inpatient,6.2,2233.01,approved,no,4.1,yes,yes
+245,34.0,male,private,heart disease,outpatient,4.6,2098.84,approved,no,3.4,yes,yes
+246,50.0,male,public,heart disease,outpatient,1.0,4862.94,denied,no,,no,yes
+247,65.0,male,private,unknown,outpatient,7.3,2504.78,approved,no,3.9,yes,yes
+248,76.0,male,uninsured,unknown,outpatient,0.3,3766.96,approved,no,3.9,yes,yes
+249,39.0,female,public,heart disease,outpatient,5.8,,approved,no,3.8,yes,no
+250,47.0,female,public,hypertension,emergency,1.2,3476.9,approved,no,5.0,yes,yes
+251,55.0,female,private,unknown,emergency,0.2,2153.42,approved,no,,no,yes
+252,68.0,female,private,unknown,emergency,3.3,2218.82,denied,no,4.0,yes,yes
+253,71.0,female,private,diabetes,outpatient,0.8,1860.54,approved,no,3.2,yes,yes
+254,25.0,female,public,heart disease,outpatient,0.8,5186.66,approved,no,3.6,yes,yes
+255,44.0,male,private,hypertension,outpatient,1.1,3843.77,approved,no,5.0,yes,yes
+258,47.0,male,private,unknown,outpatient,0.0,2580.17,approved,no,3.6,yes,yes
+259,45.0,male,private,heart disease,outpatient,1.8,5263.17,denied,no,,no,yes
+260,81.0,female,unknown,unknown,outpatient,0.3,3471.76,approved,no,3.5,yes,yes
+261,86.0,female,uninsured,unknown,inpatient,3.4,3182.65,approved,no,3.9,yes,yes
+262,78.0,female,private,unknown,inpatient,0.8,6004.73,approved,yes,3.5,yes,yes
+264,36.0,male,private,heart disease,inpatient,6.1,2795.15,pending,no,3.3,yes,yes
+265,21.0,female,private,unknown,emergency,1.0,4477.59,approved,no,4.6,yes,yes
+266,52.0,male,public,diabetes,outpatient,4.6,968.57,pending,no,3.3,yes,yes
+267,81.0,female,private,diabetes,outpatient,4.9,3994.63,approved,no,3.1,yes,yes
+268,66.0,male,private,multiple,emergency,12.9,500.82,denied,no,3.2,yes,yes
+269,34.0,male,public,unknown,emergency,2.7,1531.2,approved,no,2.4,yes,yes
+270,61.0,female,public,diabetes,emergency,0.3,4669.28,approved,no,4.2,yes,yes
+271,47.0,male,public,unknown,emergency,3.1,200.0,approved,no,2.9,yes,yes
+273,23.0,female,private,diabetes,emergency,3.1,5168.99,denied,yes,4.4,yes,yes
+274,54.0,male,unknown,unknown,inpatient,1.1,,denied,no,4.4,yes,no
+275,41.0,female,private,diabetes,outpatient,5.9,8297.0,approved,no,2.7,yes,yes
+276,63.0,female,private,hypertension,emergency,9.6,8848.21,approved,no,,no,yes
+277,70.0,female,private,unknown,outpatient,0.7,3139.02,approved,no,4.7,yes,yes
+279,80.0,male,unknown,unknown,emergency,0.6,6872.61,approved,no,4.2,yes,yes
+280,49.0,male,private,diabetes,outpatient,5.2,2812.42,approved,no,2.9,yes,yes
+281,50.0,male,private,unknown,emergency,3.4,3822.08,approved,no,4.1,yes,yes
+282,84.0,male,public,hypertension,outpatient,3.0,5934.58,pending,no,3.9,yes,yes
+283,35.0,female,private,unknown,emergency,1.5,3192.98,approved,no,4.3,yes,yes
+285,71.0,male,public,hypertension,emergency,1.1,955.21,denied,yes,2.7,yes,yes
+288,63.0,male,public,hypertension,outpatient,11.9,1022.87,denied,no,2.1,yes,yes
+289,41.0,male,private,unknown,inpatient,8.1,1204.13,approved,yes,4.6,yes,yes
+291,64.0,male,private,heart disease,inpatient,1.5,200.0,approved,no,2.6,yes,yes
+292,40.0,female,unknown,unknown,emergency,1.9,1741.67,approved,no,3.3,yes,yes
+293,83.0,female,unknown,hypertension,emergency,3.7,7389.19,pending,no,4.2,yes,yes
+294,44.0,female,public,multiple,outpatient,7.7,2809.06,approved,no,3.1,yes,yes
+295,19.0,male,public,unknown,outpatient,0.5,2558.55,approved,no,4.9,yes,yes
+297,50.0,male,unknown,diabetes,emergency,0.4,2831.7,approved,no,2.7,yes,yes
+298,26.0,female,private,diabetes,inpatient,2.8,4649.74,approved,no,3.2,yes,yes
+299,60.0,male,private,unknown,outpatient,1.1,4509.73,approved,no,4.4,yes,yes
+301,56.0,female,private,hypertension,emergency,0.2,3072.33,pending,yes,5.0,yes,yes
+302,59.0,male,private,hypertension,emergency,1.3,6125.55,approved,no,3.1,yes,yes
+303,43.0,male,private,hypertension,outpatient,6.0,479.39,pending,yes,5.0,yes,yes
+304,67.0,female,private,diabetes,outpatient,0.8,3384.84,pending,yes,3.1,yes,yes
+305,42.0,male,private,unknown,outpatient,3.6,3770.49,approved,no,4.2,yes,yes
+306,41.0,female,public,hypertension,emergency,3.0,,approved,no,4.5,yes,no
+308,77.0,male,public,heart disease,outpatient,0.4,1676.65,approved,no,4.5,yes,yes
+310,74.0,male,unknown,hypertension,emergency,2.6,823.59,pending,yes,4.7,yes,yes
+311,53.0,female,public,heart disease,inpatient,16.2,5624.67,approved,no,5.0,yes,yes
+312,62.0,male,unknown,unknown,outpatient,7.3,3353.39,approved,no,4.6,yes,yes
+313,37.0,male,unknown,hypertension,outpatient,0.8,2603.93,approved,no,3.4,yes,yes
+314,82.0,female,unknown,unknown,emergency,0.2,1490.61,approved,yes,4.8,yes,yes
+315,25.0,male,private,heart disease,outpatient,0.9,5561.32,approved,no,3.3,yes,yes
+316,33.0,female,uninsured,unknown,outpatient,2.2,2196.28,approved,yes,3.9,yes,yes
+318,32.0,male,public,heart disease,outpatient,0.5,5602.93,approved,no,4.2,yes,yes
+319,83.0,male,private,unknown,outpatient,1.9,1691.39,denied,no,,no,yes
+321,80.0,female,private,hypertension,outpatient,0.4,5137.61,approved,no,2.9,yes,yes
+323,42.0,male,private,unknown,emergency,0.2,6961.7,approved,no,4.1,yes,yes
+324,75.0,female,public,unknown,outpatient,1.5,1830.1,approved,yes,3.4,yes,yes
+325,80.0,male,private,unknown,emergency,1.9,,approved,no,3.7,yes,no
+326,79.0,male,public,heart disease,outpatient,1.8,3233.64,pending,no,4.4,yes,yes
+327,39.0,female,uninsured,diabetes,outpatient,6.1,4742.47,approved,no,4.3,yes,yes
+328,75.0,male,public,unknown,emergency,2.3,6077.25,denied,no,4.0,yes,yes
+330,66.0,male,public,unknown,outpatient,1.6,3224.67,denied,no,3.6,yes,yes
+331,69.0,female,private,unknown,outpatient,5.1,534.02,approved,yes,4.9,yes,yes
+332,59.0,male,private,unknown,inpatient,6.8,3724.76,pending,yes,5.0,yes,yes
+334,32.0,male,private,unknown,outpatient,3.4,4736.87,approved,no,2.9,yes,yes
+336,77.0,female,public,unknown,outpatient,1.0,3018.72,approved,no,4.0,yes,yes
+337,25.0,male,private,diabetes,outpatient,0.1,579.46,approved,no,3.0,yes,yes
+338,70.0,female,private,diabetes,outpatient,8.0,200.0,approved,no,3.9,yes,yes
+339,77.0,female,private,diabetes,emergency,3.2,7221.97,approved,no,3.8,yes,yes
+341,85.0,female,public,diabetes,outpatient,1.1,4308.67,approved,no,3.4,yes,yes
+342,23.0,male,private,heart disease,outpatient,5.6,1675.41,pending,no,4.7,yes,yes
+343,64.0,male,private,hypertension,emergency,0.9,5251.05,pending,no,3.0,yes,yes
+346,69.0,female,public,diabetes,outpatient,2.5,1380.99,approved,yes,3.8,yes,yes
+349,47.0,female,public,unknown,outpatient,0.3,3834.21,approved,no,5.0,yes,yes
+350,36.0,male,public,heart disease,outpatient,2.4,3576.79,approved,no,,no,yes
+351,34.0,female,public,hypertension,outpatient,2.2,6097.46,approved,yes,3.6,yes,yes
+352,80.0,female,private,heart disease,outpatient,1.0,,approved,no,,no,no
+353,36.0,female,private,diabetes,emergency,5.2,1326.68,approved,yes,2.3,yes,yes
+354,75.0,male,unknown,diabetes,outpatient,4.2,,denied,yes,2.5,yes,no
+355,72.0,male,private,unknown,outpatient,4.0,200.0,approved,no,3.7,yes,yes
+356,79.0,male,public,hypertension,outpatient,6.3,4891.47,approved,no,5.0,yes,yes
+357,40.0,female,public,diabetes,inpatient,3.8,3695.93,approved,no,1.6,yes,yes
+359,29.0,male,public,unknown,outpatient,3.7,2712.89,approved,no,3.3,yes,yes
+360,18.0,female,private,diabetes,outpatient,1.1,5319.99,approved,no,3.5,yes,yes
+362,18.0,male,private,diabetes,emergency,0.2,3007.26,denied,no,2.7,yes,yes
+364,65.0,male,private,hypertension,outpatient,3.7,5226.74,approved,no,4.0,yes,yes
+365,18.0,female,private,unknown,outpatient,0.8,,approved,no,4.3,yes,no
+366,33.0,male,unknown,hypertension,outpatient,4.2,3089.07,pending,no,2.5,yes,yes
+367,78.0,female,uninsured,diabetes,inpatient,7.5,4262.34,approved,no,4.5,yes,yes
+368,81.0,female,private,heart disease,emergency,0.3,1421.83,denied,no,4.5,yes,yes
+369,80.0,female,private,hypertension,outpatient,0.8,,approved,no,4.1,yes,no
+370,86.0,male,private,unknown,inpatient,4.2,3033.75,pending,yes,3.5,yes,yes
+371,39.0,male,public,unknown,outpatient,1.0,2720.27,denied,no,4.0,yes,yes
+372,84.0,female,public,multiple,emergency,2.9,200.0,approved,no,3.7,yes,yes
+374,33.0,male,private,heart disease,outpatient,1.8,2528.21,approved,no,3.5,yes,yes
+375,68.0,male,public,unknown,emergency,4.0,5290.08,pending,no,3.9,yes,yes
+377,46.0,female,public,hypertension,outpatient,5.1,5379.35,approved,no,4.0,yes,yes
+379,64.0,male,private,unknown,outpatient,4.5,4158.62,denied,no,4.2,yes,yes
+380,79.0,female,private,hypertension,emergency,3.3,,approved,no,4.4,yes,no
+381,86.0,male,private,diabetes,inpatient,0.1,1554.01,approved,no,3.3,yes,yes
+382,33.0,male,unknown,unknown,emergency,2.3,7473.34,approved,no,3.8,yes,yes
+383,65.0,male,private,hypertension,inpatient,0.1,664.31,approved,no,3.9,yes,yes
+384,56.0,female,public,hypertension,emergency,5.0,3737.47,approved,yes,4.1,yes,yes
+385,50.0,female,private,heart disease,outpatient,1.2,5165.6,approved,no,4.4,yes,yes
+386,40.0,female,private,diabetes,outpatient,2.5,5193.48,approved,yes,4.3,yes,yes
+387,27.0,female,private,unknown,outpatient,1.0,1189.82,denied,no,3.5,yes,yes
+388,86.0,female,private,unknown,emergency,4.6,2660.19,approved,yes,5.0,yes,yes
+389,51.0,female,public,unknown,inpatient,6.5,,approved,yes,4.4,yes,no
+390,69.0,female,private,unknown,outpatient,1.5,200.0,approved,yes,4.9,yes,yes
+391,27.0,male,public,hypertension,emergency,6.0,3760.65,approved,no,4.1,yes,yes
+392,36.0,male,private,unknown,emergency,0.9,2064.77,approved,no,4.1,yes,yes
+393,75.0,female,public,heart disease,outpatient,2.3,6510.96,approved,no,3.7,yes,yes
+394,18.0,male,public,multiple,outpatient,5.9,4730.35,denied,no,3.4,yes,yes
+395,86.0,male,private,diabetes,outpatient,1.2,3582.8,approved,no,4.6,yes,yes
+396,21.0,female,uninsured,heart disease,outpatient,9.2,2554.6,approved,no,4.0,yes,yes
+397,33.0,male,private,hypertension,outpatient,0.4,3730.23,pending,no,3.7,yes,yes
+398,41.0,female,private,diabetes,outpatient,0.1,2988.25,approved,no,3.0,yes,yes
+399,19.0,male,private,unknown,outpatient,7.0,3639.08,pending,no,5.0,yes,yes
+401,41.0,male,public,diabetes,inpatient,14.4,1370.49,denied,no,2.8,yes,yes
+402,29.0,male,private,heart disease,outpatient,9.1,3162.72,approved,no,3.9,yes,yes
+403,67.0,female,private,diabetes,emergency,0.4,4912.78,pending,no,3.6,yes,yes
+404,52.0,female,uninsured,heart disease,outpatient,2.3,2699.72,denied,no,3.6,yes,yes
+406,50.0,female,public,unknown,inpatient,1.7,4856.92,approved,no,3.6,yes,yes
+407,78.0,male,public,multiple,outpatient,0.2,2062.22,denied,yes,3.6,yes,yes
+408,68.0,male,private,diabetes,outpatient,0.8,,approved,no,,no,no
+410,29.0,male,private,hypertension,outpatient,1.7,1906.68,approved,yes,3.8,yes,yes
+411,84.0,female,private,unknown,outpatient,11.4,3219.6,denied,no,4.5,yes,yes
+412,82.0,female,public,diabetes,outpatient,4.9,6027.52,approved,no,,no,yes
+413,50.0,male,private,diabetes,outpatient,4.0,,approved,no,4.6,yes,no
+415,60.0,male,private,multiple,outpatient,5.5,5062.37,pending,no,5.0,yes,yes
+416,61.0,female,unknown,diabetes,inpatient,1.2,4037.24,pending,no,2.9,yes,yes
+417,46.0,female,private,unknown,emergency,3.7,1160.21,pending,no,2.5,yes,yes
+418,30.0,male,private,diabetes,emergency,15.2,3209.72,approved,no,4.1,yes,yes
+419,29.0,female,private,heart disease,emergency,1.1,3353.68,pending,no,2.7,yes,yes
+422,52.0,male,public,unknown,inpatient,7.4,1674.67,approved,no,4.3,yes,yes
+423,25.0,male,private,unknown,emergency,3.8,3408.91,approved,no,5.0,yes,yes
+425,51.0,female,private,hypertension,outpatient,1.2,2852.98,approved,no,5.0,yes,yes
+426,24.0,male,private,unknown,outpatient,0.1,3338.24,approved,no,4.1,yes,yes
+428,75.0,female,uninsured,unknown,emergency,0.1,5426.37,denied,no,4.5,yes,yes
+429,46.0,male,unknown,multiple,outpatient,6.0,,approved,no,4.9,yes,no
+431,38.0,female,public,unknown,outpatient,0.6,200.0,denied,yes,5.0,yes,yes
+432,53.0,male,private,heart disease,outpatient,1.9,2216.05,approved,yes,3.7,yes,yes
+433,27.0,male,private,hypertension,outpatient,4.0,3142.7,approved,no,4.2,yes,yes
+434,41.0,male,private,unknown,outpatient,0.4,200.0,approved,no,3.7,yes,yes
+435,81.0,female,unknown,unknown,outpatient,1.7,1748.22,approved,no,5.0,yes,yes
+436,66.0,female,private,diabetes,outpatient,2.0,3117.14,pending,no,4.5,yes,yes
+437,53.0,male,private,hypertension,inpatient,0.7,2602.05,approved,no,2.9,yes,yes
+438,41.0,female,private,multiple,outpatient,0.4,3517.3,approved,no,,no,yes
+439,40.0,male,private,hypertension,outpatient,5.4,738.34,approved,no,3.2,yes,yes
+440,79.0,female,unknown,heart disease,emergency,2.1,2579.44,approved,no,3.8,yes,yes
+441,54.0,male,unknown,diabetes,inpatient,0.0,3803.82,approved,yes,4.2,yes,yes
+442,29.0,male,private,hypertension,emergency,4.9,3520.4,approved,no,4.2,yes,yes
+443,72.0,male,private,hypertension,outpatient,11.9,4393.79,approved,no,4.2,yes,yes
+444,30.0,female,public,unknown,inpatient,2.8,4277.15,approved,no,2.9,yes,yes
+445,40.0,female,private,diabetes,emergency,2.1,2685.79,approved,yes,4.2,yes,yes
+446,47.0,female,private,hypertension,outpatient,6.3,3740.24,approved,yes,4.7,yes,yes
+447,34.0,male,private,unknown,outpatient,9.1,1900.01,approved,no,4.7,yes,yes
+448,79.0,male,private,hypertension,outpatient,4.2,2959.54,approved,no,2.8,yes,yes
+449,30.0,female,uninsured,unknown,outpatient,1.8,1388.77,pending,no,3.3,yes,yes
+450,76.0,male,private,diabetes,emergency,2.7,5630.85,approved,no,3.0,yes,yes
+451,36.0,male,private,hypertension,outpatient,3.6,2953.01,approved,yes,4.1,yes,yes
+452,66.0,male,private,unknown,inpatient,0.6,5627.89,approved,no,2.6,yes,yes
+456,26.0,female,private,unknown,outpatient,1.6,5119.44,approved,no,3.8,yes,yes
+457,88.0,male,uninsured,heart disease,emergency,3.3,3344.84,pending,no,2.1,yes,yes
+458,45.0,male,private,unknown,emergency,0.4,3648.06,pending,no,4.2,yes,yes
+459,69.0,male,public,multiple,outpatient,1.5,2397.09,approved,no,3.5,yes,yes
+461,86.0,male,private,diabetes,outpatient,0.7,3975.8,approved,no,3.4,yes,yes
+462,29.0,female,private,diabetes,emergency,0.6,2342.37,approved,no,3.8,yes,yes
+463,42.0,female,public,diabetes,outpatient,9.0,1341.41,approved,no,4.3,yes,yes
+464,69.0,female,private,diabetes,outpatient,0.7,6075.94,approved,no,4.9,yes,yes
+465,70.0,male,private,unknown,emergency,0.9,4708.24,approved,no,4.6,yes,yes
+466,40.0,female,public,unknown,inpatient,10.5,2404.68,approved,no,5.0,yes,yes
+467,33.0,male,private,unknown,outpatient,4.0,3939.31,approved,no,4.3,yes,yes
+468,74.0,female,private,unknown,outpatient,3.6,542.84,approved,no,3.9,yes,yes
+469,56.0,male,private,unknown,emergency,5.8,200.0,approved,no,3.4,yes,yes
+470,70.0,female,uninsured,diabetes,emergency,0.4,5668.27,pending,no,3.5,yes,yes
+471,59.0,male,public,multiple,outpatient,3.7,,approved,no,4.2,yes,no
+472,75.0,female,unknown,unknown,inpatient,2.1,,denied,no,3.0,yes,no
+476,52.0,male,private,heart disease,outpatient,1.9,,approved,no,3.0,yes,no
+477,35.0,female,public,heart disease,emergency,2.0,200.0,denied,no,5.0,yes,yes
+478,26.0,female,private,multiple,outpatient,4.4,5609.07,approved,no,2.7,yes,yes
+479,75.0,male,private,unknown,emergency,3.0,5212.19,approved,yes,3.7,yes,yes
+480,34.0,female,public,hypertension,emergency,3.0,4650.12,pending,no,4.8,yes,yes
+481,24.0,male,private,hypertension,outpatient,1.8,1874.24,approved,no,4.2,yes,yes
+482,63.0,female,uninsured,unknown,emergency,2.3,4226.57,pending,no,3.4,yes,yes
+484,57.0,male,public,unknown,outpatient,5.2,4825.56,approved,no,3.9,yes,yes
+486,26.0,female,private,unknown,outpatient,7.7,2413.05,approved,yes,3.9,yes,yes
+489,83.0,male,private,diabetes,outpatient,3.3,4483.75,pending,no,2.9,yes,yes
+491,46.0,female,public,unknown,outpatient,2.9,3964.43,approved,yes,4.1,yes,yes
+492,54.0,female,private,hypertension,outpatient,5.2,2148.83,approved,no,4.0,yes,yes
+493,55.0,male,public,unknown,outpatient,3.5,4449.27,approved,yes,2.7,yes,yes
+496,34.0,female,private,hypertension,outpatient,1.7,1698.29,approved,no,4.0,yes,yes
+497,88.0,male,private,unknown,outpatient,10.3,4752.93,approved,no,2.5,yes,yes
+498,62.0,male,private,hypertension,inpatient,3.2,4303.58,approved,no,4.5,yes,yes
+500,53.0,male,unknown,heart disease,outpatient,8.1,4007.94,approved,no,3.6,yes,yes
+501,87.0,female,public,diabetes,outpatient,2.6,2329.05,denied,no,4.3,yes,yes
+502,48.0,female,private,unknown,emergency,2.2,5041.28,approved,no,4.8,yes,yes
+503,36.0,female,private,unknown,outpatient,4.3,3244.64,denied,no,1.9,yes,yes
+504,78.0,male,private,unknown,outpatient,3.7,3660.5,approved,yes,4.4,yes,yes
+505,71.0,female,private,diabetes,inpatient,0.6,1643.05,approved,no,,no,yes
+506,56.0,female,public,unknown,outpatient,1.9,3255.13,denied,yes,3.4,yes,yes
+507,36.0,male,public,diabetes,outpatient,1.9,3561.61,approved,no,3.9,yes,yes
+509,84.0,female,private,unknown,outpatient,2.2,2318.23,approved,yes,,no,yes
+510,62.0,female,public,heart disease,outpatient,1.6,4076.46,denied,no,,no,yes
+511,30.0,female,public,diabetes,outpatient,0.7,1653.06,pending,no,3.4,yes,yes
+512,75.0,female,public,unknown,outpatient,1.6,1182.01,approved,no,3.5,yes,yes
+515,78.0,female,private,hypertension,outpatient,5.8,884.79,approved,yes,3.4,yes,yes
+516,56.0,male,public,hypertension,outpatient,3.9,200.0,pending,no,4.1,yes,yes
+517,18.0,female,public,unknown,emergency,0.0,1482.52,approved,no,2.6,yes,yes
+518,20.0,male,unknown,hypertension,outpatient,0.3,3243.4,pending,no,,no,yes
+519,79.0,male,public,diabetes,outpatient,0.7,5808.7,denied,no,,no,yes
+520,80.0,male,public,diabetes,inpatient,2.4,3194.51,denied,no,3.0,yes,yes
+521,42.0,female,public,unknown,emergency,0.7,1961.28,approved,no,2.9,yes,yes
+523,50.0,male,private,heart disease,inpatient,0.8,3271.97,approved,yes,3.6,yes,yes
+524,55.0,female,private,unknown,outpatient,5.7,737.99,approved,no,,no,yes
+526,75.0,male,public,diabetes,emergency,0.8,803.6,approved,yes,3.2,yes,yes
+527,61.0,male,public,diabetes,outpatient,5.0,8459.7,pending,no,4.8,yes,yes
+528,62.0,female,public,unknown,outpatient,1.3,5219.96,approved,no,3.9,yes,yes
+529,49.0,female,private,unknown,outpatient,0.4,2312.57,approved,no,5.0,yes,yes
+530,62.0,female,public,hypertension,outpatient,2.5,,approved,yes,3.2,yes,no
+531,78.0,female,public,unknown,outpatient,2.6,2363.89,approved,no,3.6,yes,yes
+532,64.0,female,public,unknown,inpatient,3.8,5650.36,approved,no,4.1,yes,yes
+533,38.0,female,public,unknown,outpatient,0.8,3660.61,approved,no,4.3,yes,yes
+535,36.0,male,private,heart disease,outpatient,1.0,4859.64,approved,no,3.1,yes,yes
+536,37.0,male,private,unknown,emergency,0.3,3775.04,approved,no,3.1,yes,yes
+538,35.0,female,private,unknown,emergency,3.9,3931.01,denied,yes,5.0,yes,yes
+540,66.0,male,public,diabetes,outpatient,2.7,5101.11,denied,no,3.4,yes,yes
+541,31.0,female,private,unknown,outpatient,0.7,,approved,no,4.4,yes,no
+542,32.0,female,private,hypertension,inpatient,6.6,5997.58,pending,no,4.3,yes,yes
+544,18.0,male,private,heart disease,outpatient,0.0,2878.79,approved,no,3.9,yes,yes
+545,71.0,female,private,hypertension,outpatient,2.1,3098.53,approved,yes,2.9,yes,yes
+546,20.0,male,private,unknown,outpatient,2.6,987.74,approved,yes,3.2,yes,yes
+547,33.0,female,private,unknown,emergency,2.6,4829.09,approved,no,4.7,yes,yes
+548,74.0,male,private,unknown,outpatient,0.2,1470.15,denied,yes,4.4,yes,yes
+549,29.0,male,private,unknown,emergency,1.1,2755.09,approved,no,2.7,yes,yes
+550,33.0,male,private,multiple,inpatient,2.1,4840.7,pending,no,4.5,yes,yes
+552,41.0,male,private,unknown,outpatient,6.2,,approved,no,3.8,yes,no
+553,45.0,male,public,hypertension,outpatient,0.3,1105.04,denied,no,4.1,yes,yes
+554,25.0,female,private,diabetes,outpatient,2.0,5910.65,approved,no,4.6,yes,yes
+556,25.0,male,public,unknown,outpatient,0.9,2328.25,pending,no,5.0,yes,yes
+557,75.0,female,private,unknown,inpatient,2.9,200.0,approved,no,4.8,yes,yes
+558,77.0,female,public,hypertension,outpatient,5.3,3460.28,approved,yes,4.2,yes,yes
+559,67.0,female,public,unknown,outpatient,0.6,2833.41,approved,yes,3.8,yes,yes
+561,58.0,male,private,diabetes,emergency,2.4,1150.74,pending,no,2.6,yes,yes
+562,81.0,male,private,unknown,outpatient,1.1,4968.36,approved,yes,,no,yes
+564,80.0,female,private,diabetes,outpatient,1.1,3315.65,approved,no,5.0,yes,yes
+565,34.0,male,public,unknown,emergency,3.9,3730.98,approved,no,3.8,yes,yes
+566,50.0,male,public,heart disease,emergency,4.8,3615.55,approved,no,3.5,yes,yes
+567,46.0,male,uninsured,diabetes,emergency,5.4,,approved,no,3.3,yes,no
+569,63.0,female,public,diabetes,emergency,4.7,6149.4,approved,no,3.4,yes,yes
+571,23.0,female,private,hypertension,outpatient,1.2,1564.31,approved,yes,,no,yes
+574,42.0,female,public,unknown,outpatient,4.1,6029.24,denied,no,3.8,yes,yes
+575,83.0,male,public,unknown,emergency,1.8,2296.07,pending,no,2.6,yes,yes
+576,27.0,male,unknown,unknown,inpatient,0.1,1783.98,approved,yes,,no,yes
+577,73.0,female,public,unknown,outpatient,0.2,3787.59,approved,no,4.8,yes,yes
+579,22.0,female,private,unknown,outpatient,2.6,2565.14,approved,no,4.5,yes,yes
+581,82.0,male,private,heart disease,outpatient,2.9,3940.94,approved,yes,3.7,yes,yes
+582,35.0,male,public,unknown,inpatient,2.0,1507.46,pending,no,5.0,yes,yes
+583,66.0,female,private,unknown,outpatient,3.3,1741.0,approved,yes,2.8,yes,yes
+584,28.0,male,private,unknown,outpatient,0.7,5813.83,pending,no,,no,yes
+585,43.0,female,public,unknown,outpatient,0.4,,approved,no,3.8,yes,no
+586,80.0,female,uninsured,unknown,inpatient,2.7,5229.27,approved,no,5.0,yes,yes
+587,76.0,male,public,hypertension,emergency,2.0,2416.43,approved,no,3.8,yes,yes
+589,66.0,male,unknown,unknown,emergency,1.4,3929.07,approved,no,3.5,yes,yes
+592,38.0,male,uninsured,unknown,emergency,1.5,3167.46,pending,no,4.4,yes,yes
+593,72.0,female,private,diabetes,outpatient,2.8,5696.31,approved,no,4.4,yes,yes
+594,23.0,male,public,unknown,outpatient,4.9,2740.38,pending,no,3.6,yes,yes
+595,86.0,female,public,diabetes,outpatient,1.1,4069.26,denied,no,2.9,yes,yes
+596,22.0,female,public,diabetes,outpatient,9.8,5521.92,approved,yes,3.9,yes,yes
+597,20.0,female,public,unknown,outpatient,2.3,2348.32,approved,no,4.9,yes,yes
+598,70.0,female,uninsured,heart disease,outpatient,2.9,4180.92,approved,no,3.1,yes,yes
+599,40.0,male,public,unknown,emergency,3.4,6991.1,approved,no,,no,yes
+600,70.0,male,private,hypertension,outpatient,3.3,5342.64,approved,no,2.8,yes,yes
+601,54.0,female,public,unknown,outpatient,2.1,4069.87,pending,no,3.0,yes,yes
+602,34.0,female,private,hypertension,outpatient,1.7,,approved,yes,4.8,yes,no
+603,18.0,male,private,diabetes,outpatient,0.2,2291.36,approved,no,4.4,yes,yes
+604,68.0,female,private,hypertension,outpatient,0.1,1523.63,pending,no,4.1,yes,yes
+605,62.0,male,private,unknown,outpatient,1.3,6519.25,approved,yes,1.9,yes,yes
+606,21.0,female,private,diabetes,outpatient,1.2,6130.94,pending,no,3.4,yes,yes
+607,79.0,male,uninsured,diabetes,outpatient,1.5,2185.77,approved,no,4.3,yes,yes
+608,82.0,female,public,hypertension,outpatient,0.4,,approved,no,2.6,yes,no
+609,49.0,female,public,diabetes,outpatient,4.0,,approved,no,3.5,yes,no
+611,89.0,female,uninsured,unknown,outpatient,8.4,4265.6,approved,no,2.6,yes,yes
+612,56.0,female,uninsured,unknown,outpatient,2.0,3454.36,denied,no,2.5,yes,yes
+613,43.0,male,public,diabetes,emergency,3.6,,approved,no,2.6,yes,no
+614,51.0,female,private,unknown,outpatient,5.8,4181.74,pending,yes,4.1,yes,yes
+616,20.0,male,public,hypertension,outpatient,1.1,,approved,no,4.5,yes,no
+617,67.0,female,private,multiple,emergency,8.3,3348.06,approved,no,3.9,yes,yes
+618,29.0,female,private,unknown,inpatient,2.2,2755.02,approved,yes,5.0,yes,yes
+619,82.0,female,uninsured,heart disease,emergency,2.1,1554.52,denied,yes,2.8,yes,yes
+620,71.0,female,private,hypertension,emergency,0.6,4528.39,pending,yes,4.1,yes,yes
+622,74.0,female,private,diabetes,emergency,5.5,7074.84,approved,no,4.3,yes,yes
+623,34.0,female,unknown,unknown,outpatient,2.9,1435.31,approved,no,3.9,yes,yes
+625,40.0,female,unknown,diabetes,outpatient,0.6,3334.71,denied,no,3.7,yes,yes
+626,31.0,male,private,unknown,outpatient,2.4,7699.52,approved,yes,3.9,yes,yes
+627,83.0,female,public,unknown,inpatient,2.6,4597.94,approved,no,,no,yes
+628,68.0,female,uninsured,heart disease,outpatient,0.7,4149.38,approved,yes,4.4,yes,yes
+629,55.0,female,private,heart disease,emergency,5.7,3339.8,approved,no,3.0,yes,yes
+630,81.0,female,private,multiple,outpatient,0.3,2093.76,approved,no,5.0,yes,yes
+631,55.0,female,public,diabetes,outpatient,1.3,4122.79,approved,no,4.6,yes,yes
+632,67.0,male,private,unknown,outpatient,3.4,735.39,denied,no,4.1,yes,yes
+634,68.0,female,public,unknown,emergency,5.3,5524.88,approved,yes,3.6,yes,yes
+635,80.0,female,private,unknown,outpatient,4.0,200.0,approved,no,4.3,yes,yes
+636,69.0,male,public,unknown,outpatient,4.7,,approved,yes,4.0,yes,no
+639,68.0,female,private,heart disease,inpatient,1.0,3869.09,pending,no,4.2,yes,yes
+640,22.0,female,private,unknown,outpatient,2.2,5469.11,denied,no,4.6,yes,yes
+641,46.0,male,private,heart disease,outpatient,4.1,5935.27,approved,no,3.4,yes,yes
+642,21.0,male,private,diabetes,outpatient,5.4,1662.09,denied,no,3.6,yes,yes
+643,27.0,female,public,unknown,outpatient,3.7,2568.08,approved,no,5.0,yes,yes
+644,73.0,female,unknown,unknown,outpatient,7.9,11605.1,approved,yes,4.3,yes,yes
+645,34.0,male,private,unknown,emergency,4.0,2999.97,denied,no,4.0,yes,yes
+646,34.0,male,public,unknown,inpatient,1.1,1735.58,approved,no,3.2,yes,yes
+647,86.0,female,private,hypertension,emergency,0.9,2068.4,approved,no,4.6,yes,yes
+648,51.0,male,public,unknown,outpatient,3.6,3011.72,approved,no,3.2,yes,yes
+649,23.0,female,public,unknown,outpatient,0.6,2714.53,approved,no,2.9,yes,yes
+652,60.0,male,uninsured,hypertension,emergency,5.2,3443.18,approved,no,4.3,yes,yes
+653,40.0,male,private,hypertension,outpatient,0.3,1589.03,approved,yes,4.1,yes,yes
+654,72.0,female,public,unknown,outpatient,4.7,4238.66,approved,no,3.5,yes,yes
+655,33.0,male,unknown,hypertension,outpatient,5.0,3742.09,approved,no,3.6,yes,yes
+656,25.0,male,private,hypertension,inpatient,2.0,4493.16,approved,yes,3.7,yes,yes
+657,21.0,female,private,diabetes,outpatient,0.2,200.0,approved,yes,3.2,yes,yes
+658,21.0,male,uninsured,multiple,outpatient,0.6,3813.69,denied,yes,3.9,yes,yes
+659,73.0,male,uninsured,unknown,outpatient,3.7,200.0,pending,no,3.6,yes,yes
+660,42.0,female,private,heart disease,outpatient,3.7,3148.86,approved,yes,3.9,yes,yes
+661,84.0,male,private,heart disease,outpatient,6.9,4815.87,approved,no,3.7,yes,yes
+662,84.0,female,public,unknown,outpatient,2.6,5591.56,approved,yes,3.5,yes,yes
+664,49.0,female,private,multiple,outpatient,0.4,,approved,no,4.4,yes,no
+665,67.0,female,public,unknown,emergency,3.8,2901.99,denied,no,3.4,yes,yes
+666,78.0,male,private,diabetes,inpatient,0.6,2481.66,pending,yes,4.1,yes,yes
+667,68.0,female,uninsured,multiple,emergency,1.2,8885.52,pending,no,4.2,yes,yes
+668,36.0,male,private,diabetes,outpatient,2.0,5154.32,pending,no,,no,yes
+669,38.0,male,private,unknown,outpatient,0.1,1154.03,approved,no,4.6,yes,yes
+670,22.0,male,private,diabetes,emergency,0.9,200.0,approved,no,5.0,yes,yes
+671,59.0,male,public,unknown,emergency,1.6,2569.86,pending,no,3.7,yes,yes
+672,78.0,male,private,diabetes,outpatient,1.0,5883.74,approved,no,3.7,yes,yes
+673,39.0,male,public,unknown,emergency,0.4,3597.48,approved,yes,,no,yes
+674,38.0,male,public,diabetes,outpatient,3.9,200.0,approved,no,4.3,yes,yes
+675,87.0,male,public,diabetes,outpatient,5.0,3145.41,approved,no,4.2,yes,yes
+676,18.0,male,private,hypertension,outpatient,0.9,3495.2,pending,no,2.5,yes,yes
+677,22.0,male,private,diabetes,outpatient,4.5,200.0,approved,yes,3.1,yes,yes
+678,29.0,female,public,diabetes,outpatient,1.5,3548.33,approved,no,4.2,yes,yes
+679,63.0,female,public,hypertension,emergency,2.1,1473.26,pending,no,3.7,yes,yes
+680,51.0,female,private,unknown,outpatient,5.8,200.0,denied,yes,2.9,yes,yes
+683,44.0,female,public,heart disease,outpatient,0.4,2165.43,approved,no,3.8,yes,yes
+684,43.0,female,private,unknown,outpatient,0.2,2138.83,approved,yes,3.7,yes,yes
+686,73.0,male,private,hypertension,emergency,1.5,7032.62,approved,no,3.9,yes,yes
+687,80.0,male,private,diabetes,emergency,1.0,1107.63,denied,no,4.1,yes,yes
+688,65.0,male,public,unknown,emergency,3.9,2886.39,approved,no,3.4,yes,yes
+689,78.0,female,public,diabetes,outpatient,5.4,,approved,no,3.5,yes,no
+691,53.0,female,private,hypertension,outpatient,1.1,2854.23,approved,no,2.2,yes,yes
+692,18.0,female,public,unknown,outpatient,5.7,4689.0,denied,no,3.1,yes,yes
+693,25.0,male,private,diabetes,inpatient,0.1,1988.59,approved,no,4.0,yes,yes
+695,64.0,male,public,hypertension,outpatient,2.9,2637.29,approved,no,3.4,yes,yes
+696,73.0,female,private,diabetes,inpatient,0.2,3292.39,pending,no,4.5,yes,yes
+697,31.0,male,private,diabetes,inpatient,1.2,3986.3,approved,no,3.3,yes,yes
+698,45.0,male,private,unknown,emergency,3.4,4673.12,approved,yes,5.0,yes,yes
+699,19.0,female,private,unknown,outpatient,1.2,7375.11,approved,yes,2.4,yes,yes
+700,43.0,female,private,unknown,outpatient,0.6,,pending,yes,2.0,yes,no
+701,31.0,male,private,unknown,outpatient,1.0,3165.22,approved,no,4.5,yes,yes
+704,24.0,male,public,unknown,outpatient,4.6,5261.73,approved,no,4.6,yes,yes
+705,20.0,male,unknown,heart disease,inpatient,4.2,5895.59,denied,no,3.4,yes,yes
+707,35.0,female,unknown,hypertension,emergency,5.6,5970.59,approved,no,3.3,yes,yes
+709,32.0,female,private,unknown,outpatient,0.9,,approved,no,3.4,yes,no
+710,81.0,male,public,unknown,emergency,5.3,6693.7,approved,yes,3.1,yes,yes
+711,45.0,female,private,diabetes,outpatient,1.4,3777.6,approved,yes,5.0,yes,yes
+712,56.0,male,public,unknown,outpatient,11.9,5854.47,approved,no,,no,yes
+713,74.0,male,private,heart disease,emergency,1.9,3582.47,approved,yes,3.2,yes,yes
+715,61.0,male,private,heart disease,inpatient,1.5,,pending,no,5.0,yes,no
+718,30.0,female,private,diabetes,outpatient,3.8,3152.74,approved,no,4.2,yes,yes
+720,85.0,male,public,unknown,outpatient,8.6,1608.29,approved,no,3.8,yes,yes
+721,27.0,female,private,hypertension,emergency,0.9,2999.78,approved,yes,4.6,yes,yes
+722,84.0,female,private,diabetes,emergency,0.3,2446.9,denied,yes,3.0,yes,yes
+723,35.0,male,public,hypertension,emergency,1.5,1346.05,approved,yes,4.1,yes,yes
+724,51.0,female,private,unknown,outpatient,2.9,5571.77,approved,yes,3.5,yes,yes
+725,25.0,female,public,heart disease,emergency,5.9,5923.81,approved,no,5.0,yes,yes
+727,59.0,male,private,hypertension,emergency,3.2,3331.69,approved,no,5.0,yes,yes
+728,58.0,male,public,heart disease,outpatient,1.3,3455.23,approved,no,3.2,yes,yes
+729,23.0,male,private,hypertension,emergency,2.9,1373.65,denied,yes,3.8,yes,yes
+730,69.0,male,public,diabetes,emergency,6.5,4329.27,approved,no,4.1,yes,yes
+731,43.0,female,private,unknown,outpatient,0.8,3839.26,approved,no,3.3,yes,yes
+732,81.0,male,unknown,multiple,emergency,1.6,9187.89,approved,no,3.9,yes,yes
+733,76.0,male,private,unknown,outpatient,15.0,5674.2,approved,no,4.5,yes,yes
+735,76.0,female,private,hypertension,outpatient,2.5,3416.78,approved,no,3.2,yes,yes
+736,87.0,female,private,hypertension,outpatient,2.2,5502.61,approved,no,3.2,yes,yes
+737,50.0,male,private,unknown,outpatient,1.0,1668.52,approved,no,2.7,yes,yes
+738,70.0,female,public,hypertension,emergency,2.2,,denied,no,4.5,yes,no
+739,39.0,male,public,hypertension,outpatient,5.7,1325.71,denied,no,3.2,yes,yes
+740,38.0,male,private,unknown,emergency,3.5,2376.95,approved,no,3.2,yes,yes
+741,87.0,female,public,heart disease,inpatient,1.0,,approved,no,4.2,yes,no
+742,87.0,male,uninsured,unknown,outpatient,0.7,4728.15,approved,no,3.8,yes,yes
+745,79.0,female,public,unknown,emergency,0.3,1641.72,denied,no,3.3,yes,yes
+746,41.0,male,private,heart disease,emergency,1.6,6257.44,approved,no,2.1,yes,yes
+747,72.0,female,uninsured,unknown,inpatient,0.4,3232.79,pending,no,4.9,yes,yes
+748,26.0,female,private,unknown,emergency,0.6,,approved,no,3.1,yes,no
+750,48.0,male,public,diabetes,emergency,0.5,2185.87,approved,yes,3.2,yes,yes
+751,57.0,female,private,diabetes,emergency,0.2,5777.23,approved,no,,no,yes
+753,41.0,male,uninsured,unknown,outpatient,0.7,2790.11,approved,no,4.6,yes,yes
+754,23.0,male,public,heart disease,emergency,2.2,4504.58,approved,no,5.0,yes,yes
+755,83.0,female,private,unknown,outpatient,0.3,3384.33,approved,no,3.3,yes,yes
+756,21.0,female,private,diabetes,inpatient,4.2,3987.53,approved,no,3.0,yes,yes
+757,23.0,female,private,unknown,outpatient,7.1,2422.33,approved,no,,no,yes
+758,68.0,female,private,hypertension,outpatient,4.1,304.41,approved,no,4.2,yes,yes
+760,74.0,female,private,diabetes,outpatient,5.9,2544.34,approved,no,3.4,yes,yes
+761,83.0,female,private,unknown,emergency,3.6,4078.02,approved,no,2.8,yes,yes
+762,25.0,male,uninsured,multiple,inpatient,0.0,4903.91,denied,no,2.0,yes,yes
+763,43.0,female,private,unknown,emergency,1.5,,denied,yes,3.0,yes,no
+764,68.0,male,private,hypertension,outpatient,5.7,2082.82,approved,no,4.8,yes,yes
+765,62.0,female,uninsured,unknown,outpatient,1.3,5819.53,approved,no,4.1,yes,yes
+766,61.0,female,private,unknown,emergency,0.1,4527.36,approved,no,3.6,yes,yes
+767,22.0,male,public,hypertension,inpatient,4.1,3897.55,pending,no,4.4,yes,yes
+768,87.0,male,private,unknown,outpatient,4.9,3851.17,approved,no,2.8,yes,yes
+769,43.0,female,uninsured,heart disease,outpatient,0.5,6864.52,approved,no,3.8,yes,yes
+770,85.0,female,public,heart disease,outpatient,2.3,,denied,no,2.4,yes,no
+771,36.0,female,private,heart disease,inpatient,0.6,4330.51,approved,no,4.1,yes,yes
+772,37.0,male,public,unknown,emergency,3.8,2442.74,approved,no,4.0,yes,yes
+773,29.0,female,unknown,hypertension,outpatient,1.0,200.0,approved,no,4.0,yes,yes
+774,64.0,male,private,unknown,outpatient,1.1,,approved,yes,4.7,yes,no
+775,18.0,male,private,heart disease,inpatient,5.6,1470.73,denied,yes,,no,yes
+776,31.0,female,private,diabetes,outpatient,1.9,2183.11,denied,no,2.8,yes,yes
+778,55.0,female,private,diabetes,outpatient,1.5,4896.78,approved,no,3.6,yes,yes
+780,28.0,female,private,unknown,outpatient,2.9,2225.84,approved,no,3.7,yes,yes
+782,50.0,male,public,unknown,inpatient,1.4,8112.31,approved,no,3.0,yes,yes
+783,23.0,male,private,diabetes,emergency,0.7,1071.16,approved,no,4.9,yes,yes
+784,67.0,male,public,hypertension,inpatient,3.6,4412.48,approved,no,3.1,yes,yes
+785,27.0,female,private,diabetes,outpatient,8.7,6722.59,approved,no,3.4,yes,yes
+786,22.0,female,public,unknown,emergency,16.2,5431.89,approved,no,3.3,yes,yes
+788,27.0,male,public,unknown,emergency,0.9,3925.73,approved,yes,3.0,yes,yes
+790,19.0,male,private,unknown,outpatient,5.6,3719.55,approved,no,3.7,yes,yes
+792,57.0,female,public,unknown,outpatient,9.1,1669.59,approved,no,4.4,yes,yes
+793,19.0,male,private,hypertension,outpatient,1.3,5084.7,approved,no,4.4,yes,yes
+794,82.0,female,private,unknown,outpatient,12.8,,approved,no,4.7,yes,no
+795,80.0,male,private,unknown,emergency,5.5,3625.32,approved,no,2.6,yes,yes
+796,34.0,female,unknown,heart disease,inpatient,5.0,6992.78,pending,no,3.6,yes,yes
+797,26.0,male,private,unknown,outpatient,1.1,2969.23,approved,no,4.6,yes,yes
+798,32.0,female,public,diabetes,outpatient,0.0,5915.64,approved,yes,4.6,yes,yes
+800,55.0,male,private,heart disease,inpatient,1.1,5211.09,approved,no,3.9,yes,yes
+801,52.0,female,private,hypertension,outpatient,0.1,1569.8,approved,no,3.8,yes,yes
+802,66.0,male,private,hypertension,outpatient,2.1,4218.16,approved,no,2.6,yes,yes
+805,77.0,male,private,hypertension,outpatient,2.9,,approved,no,3.8,yes,no
+806,67.0,female,private,unknown,inpatient,0.4,5824.62,approved,no,3.8,yes,yes
+807,26.0,female,public,heart disease,outpatient,11.3,3269.36,denied,yes,1.9,yes,yes
+808,51.0,female,private,unknown,emergency,0.6,5119.78,approved,yes,3.2,yes,yes
+809,52.0,female,public,diabetes,outpatient,1.8,6318.38,pending,no,4.2,yes,yes
+810,18.0,female,uninsured,unknown,emergency,2.0,3964.01,denied,yes,3.8,yes,yes
+811,57.0,male,private,hypertension,emergency,5.0,,approved,no,4.2,yes,no
+812,81.0,female,public,unknown,outpatient,0.3,3683.74,approved,yes,4.4,yes,yes
+814,77.0,female,public,hypertension,outpatient,3.0,7705.2,denied,yes,3.4,yes,yes
+815,81.0,female,public,unknown,emergency,0.7,3372.1,denied,no,3.7,yes,yes
+817,28.0,male,private,hypertension,inpatient,7.7,5583.51,pending,no,,no,yes
+818,31.0,female,private,diabetes,outpatient,18.0,1814.16,approved,yes,2.4,yes,yes
+819,77.0,male,private,unknown,emergency,0.1,2270.56,approved,no,,no,yes
+820,47.0,male,private,unknown,emergency,0.8,2283.31,pending,yes,4.4,yes,yes
+821,52.0,male,private,unknown,emergency,1.1,2988.25,denied,no,4.9,yes,yes
+822,54.0,male,private,unknown,outpatient,1.5,3075.6,approved,yes,4.0,yes,yes
+823,22.0,female,private,heart disease,outpatient,0.8,4898.2,denied,no,2.6,yes,yes
+824,43.0,female,private,unknown,emergency,0.7,2815.28,pending,no,3.5,yes,yes
+826,21.0,female,private,unknown,outpatient,7.5,5228.36,denied,no,4.5,yes,yes
+830,89.0,female,uninsured,unknown,outpatient,0.8,200.0,approved,no,3.3,yes,yes
+831,56.0,female,private,diabetes,outpatient,3.0,4086.96,pending,no,3.9,yes,yes
+832,31.0,male,public,unknown,emergency,3.1,2487.18,approved,no,4.4,yes,yes
+833,49.0,female,uninsured,unknown,emergency,5.7,6106.13,approved,no,4.3,yes,yes
+834,68.0,female,public,unknown,emergency,4.1,2466.79,approved,no,4.3,yes,yes
+835,55.0,female,public,diabetes,inpatient,2.3,821.03,approved,no,4.3,yes,yes
+836,40.0,female,public,unknown,outpatient,3.2,3440.37,approved,no,3.0,yes,yes
+837,80.0,male,uninsured,hypertension,outpatient,1.0,1706.06,pending,no,,no,yes
+839,42.0,female,public,diabetes,outpatient,2.0,1882.78,approved,no,3.6,yes,yes
+840,34.0,male,unknown,unknown,inpatient,0.4,3464.99,pending,no,2.9,yes,yes
+841,83.0,female,private,hypertension,outpatient,0.8,6591.62,denied,no,4.1,yes,yes
+843,68.0,female,unknown,diabetes,outpatient,7.7,4455.68,approved,no,4.3,yes,yes
+844,56.0,female,private,hypertension,outpatient,0.8,3244.84,pending,no,,no,yes
+845,68.0,female,private,unknown,emergency,1.0,4265.79,approved,no,5.0,yes,yes
+847,23.0,male,private,unknown,inpatient,3.3,1526.8,denied,no,3.6,yes,yes
+848,84.0,female,private,unknown,outpatient,0.4,5202.67,denied,no,4.3,yes,yes
+850,68.0,female,unknown,heart disease,inpatient,6.0,4644.9,approved,yes,4.0,yes,yes
+851,89.0,male,public,unknown,outpatient,2.6,1286.22,approved,yes,,no,yes
+852,59.0,male,private,diabetes,inpatient,3.4,7425.59,approved,yes,3.6,yes,yes
+853,81.0,male,private,diabetes,inpatient,0.1,5026.68,approved,yes,4.8,yes,yes
+854,32.0,female,public,unknown,emergency,1.2,387.95,approved,no,2.5,yes,yes
+855,46.0,male,unknown,unknown,emergency,4.8,3498.15,approved,no,5.0,yes,yes
+856,50.0,female,private,unknown,outpatient,0.2,2457.16,pending,no,2.4,yes,yes
+857,44.0,female,public,unknown,inpatient,1.0,2220.55,approved,no,4.9,yes,yes
+858,53.0,female,unknown,unknown,outpatient,2.6,3794.21,approved,no,2.3,yes,yes
+859,46.0,female,unknown,unknown,emergency,0.9,1644.01,approved,yes,5.0,yes,yes
+860,55.0,male,private,unknown,inpatient,8.2,5022.93,approved,no,3.9,yes,yes
+862,44.0,female,public,diabetes,emergency,4.8,4202.85,denied,yes,5.0,yes,yes
+863,72.0,female,private,multiple,outpatient,2.1,3460.99,approved,no,2.9,yes,yes
+865,85.0,male,private,hypertension,emergency,1.1,5082.77,approved,no,5.0,yes,yes
+866,83.0,male,private,heart disease,inpatient,2.2,4409.84,pending,yes,4.1,yes,yes
+867,27.0,male,private,hypertension,emergency,5.8,876.25,denied,no,,no,yes
+868,22.0,male,public,unknown,outpatient,1.9,1923.23,pending,yes,3.6,yes,yes
+869,55.0,female,public,hypertension,outpatient,1.3,2963.88,pending,no,3.5,yes,yes
+870,30.0,female,public,unknown,outpatient,2.3,548.42,pending,yes,4.0,yes,yes
+872,64.0,female,private,diabetes,outpatient,1.8,6322.01,approved,no,4.2,yes,yes
+873,69.0,female,private,diabetes,outpatient,8.4,6003.38,approved,no,2.6,yes,yes
+874,73.0,female,public,unknown,outpatient,1.0,4979.25,approved,no,3.4,yes,yes
+875,32.0,female,private,heart disease,emergency,1.9,4955.42,approved,no,4.0,yes,yes
+878,22.0,male,private,heart disease,outpatient,6.0,,pending,yes,3.2,yes,no
+879,46.0,male,uninsured,unknown,outpatient,17.2,622.17,pending,yes,3.9,yes,yes
+881,85.0,female,public,diabetes,outpatient,0.4,4296.99,approved,no,3.0,yes,yes
+883,19.0,female,public,hypertension,inpatient,3.9,2844.72,approved,no,2.8,yes,yes
+885,53.0,female,private,hypertension,outpatient,0.7,6013.55,approved,no,3.8,yes,yes
+886,53.0,female,private,multiple,inpatient,0.5,3443.28,approved,no,2.7,yes,yes
+888,60.0,male,private,diabetes,emergency,5.2,1956.91,pending,no,4.0,yes,yes
+889,44.0,female,uninsured,heart disease,emergency,1.1,3841.2,approved,no,4.2,yes,yes
+891,37.0,male,public,unknown,outpatient,2.1,2324.49,approved,no,2.9,yes,yes
+893,55.0,male,private,unknown,outpatient,3.2,5418.71,pending,no,4.3,yes,yes
+894,23.0,female,private,hypertension,emergency,2.9,3223.95,denied,yes,2.8,yes,yes
+895,89.0,female,private,heart disease,outpatient,0.6,,approved,yes,2.9,yes,no
+896,40.0,male,private,hypertension,outpatient,2.2,,approved,no,3.6,yes,no
+898,63.0,female,private,hypertension,outpatient,10.9,3557.68,denied,no,3.8,yes,yes
+899,29.0,male,public,diabetes,outpatient,0.7,3881.99,denied,no,3.6,yes,yes
+900,30.0,female,private,heart disease,outpatient,0.0,3585.1,approved,yes,,no,yes
+901,79.0,male,uninsured,unknown,inpatient,0.2,946.29,denied,no,4.8,yes,yes
+902,77.0,male,private,unknown,outpatient,1.4,5397.02,approved,no,4.2,yes,yes
+903,60.0,male,private,unknown,outpatient,5.2,200.0,pending,no,3.8,yes,yes
+904,85.0,male,public,diabetes,emergency,0.0,4423.07,pending,yes,2.9,yes,yes
+905,22.0,female,private,diabetes,outpatient,1.8,4731.14,denied,no,3.2,yes,yes
+909,26.0,female,private,unknown,outpatient,0.9,4230.99,approved,no,5.0,yes,yes
+910,68.0,female,private,unknown,outpatient,1.3,5485.85,approved,no,5.0,yes,yes
+911,46.0,male,private,diabetes,outpatient,3.7,1915.75,approved,yes,,no,yes
+912,57.0,female,private,unknown,outpatient,2.2,4847.93,denied,no,2.9,yes,yes
+913,58.0,male,public,unknown,outpatient,0.4,6884.8,approved,no,4.4,yes,yes
+915,40.0,female,private,unknown,outpatient,3.0,2493.79,approved,yes,4.5,yes,yes
+916,18.0,male,private,diabetes,emergency,4.4,8026.47,approved,yes,3.4,yes,yes
+917,63.0,male,private,unknown,outpatient,0.2,3677.41,approved,yes,5.0,yes,yes
+918,38.0,male,private,hypertension,outpatient,0.1,3963.06,denied,no,3.4,yes,yes
+919,53.0,female,public,hypertension,outpatient,0.1,4004.75,denied,no,5.0,yes,yes
+920,71.0,female,private,diabetes,inpatient,0.6,4395.73,approved,no,4.0,yes,yes
+921,74.0,male,public,multiple,outpatient,1.6,2822.25,pending,no,4.9,yes,yes
+922,18.0,female,public,diabetes,inpatient,8.2,,denied,yes,3.4,yes,no
+924,71.0,male,private,multiple,emergency,1.0,2753.2,denied,no,2.0,yes,yes
+925,72.0,female,private,unknown,outpatient,2.5,2660.01,pending,no,4.8,yes,yes
+926,57.0,male,private,heart disease,outpatient,0.4,2915.83,approved,no,3.9,yes,yes
+927,32.0,female,private,unknown,outpatient,2.8,,approved,no,2.8,yes,no
+928,38.0,male,unknown,unknown,outpatient,2.5,2134.32,pending,yes,4.9,yes,yes
+929,64.0,female,private,unknown,outpatient,4.7,2052.84,approved,yes,4.7,yes,yes
+930,70.0,female,public,hypertension,outpatient,13.0,3498.95,approved,no,4.9,yes,yes
+932,69.0,female,public,hypertension,inpatient,2.1,6407.43,approved,no,4.8,yes,yes
+933,74.0,male,public,unknown,outpatient,7.2,3614.38,pending,yes,4.1,yes,yes
+934,43.0,male,public,unknown,outpatient,4.6,4412.94,approved,yes,4.9,yes,yes
+935,58.0,female,public,unknown,outpatient,2.0,3986.79,approved,no,4.2,yes,yes
+936,52.0,male,private,unknown,emergency,8.7,200.0,approved,no,3.9,yes,yes
+937,80.0,female,public,heart disease,outpatient,0.2,1204.22,approved,no,4.8,yes,yes
+938,42.0,female,private,unknown,inpatient,8.0,5022.53,approved,no,,no,yes
+940,19.0,female,uninsured,hypertension,outpatient,2.4,5171.22,denied,no,3.4,yes,yes
+943,34.0,male,public,unknown,outpatient,1.9,1442.95,approved,no,3.4,yes,yes
+944,60.0,female,public,unknown,outpatient,1.2,1748.98,approved,no,4.4,yes,yes
+945,76.0,female,unknown,unknown,inpatient,9.1,4757.54,approved,no,4.3,yes,yes
+946,68.0,female,private,diabetes,outpatient,5.2,2785.26,approved,yes,3.0,yes,yes
+947,71.0,male,public,unknown,inpatient,3.7,6880.8,denied,no,,no,yes
+948,41.0,male,public,diabetes,outpatient,2.7,6435.28,approved,no,5.0,yes,yes
+949,42.0,male,private,diabetes,emergency,5.2,6847.4,denied,no,3.1,yes,yes
+950,88.0,female,uninsured,unknown,emergency,1.5,1666.97,approved,no,3.6,yes,yes
+951,69.0,male,public,hypertension,outpatient,1.8,4481.78,pending,no,3.3,yes,yes
+952,87.0,female,public,hypertension,inpatient,3.9,,approved,yes,3.7,yes,no
+953,50.0,female,private,unknown,outpatient,1.3,4155.74,denied,no,4.0,yes,yes
+954,66.0,male,public,unknown,outpatient,0.2,1888.77,approved,no,3.2,yes,yes
+955,46.0,female,public,hypertension,outpatient,0.2,5952.31,approved,no,3.6,yes,yes
+956,80.0,female,private,unknown,outpatient,0.4,1926.14,approved,no,3.9,yes,yes
+958,43.0,female,private,unknown,outpatient,1.9,7567.56,approved,no,5.0,yes,yes
+959,45.0,male,public,unknown,outpatient,3.7,4384.99,approved,no,3.8,yes,yes
+960,66.0,female,public,unknown,outpatient,1.5,1361.75,denied,no,3.4,yes,yes
+962,66.0,female,private,diabetes,outpatient,1.3,2346.29,denied,no,4.1,yes,yes
+964,80.0,female,private,hypertension,inpatient,2.9,5105.56,denied,yes,4.2,yes,yes
+965,78.0,male,uninsured,heart disease,emergency,8.3,4791.56,approved,no,3.5,yes,yes
+966,66.0,male,private,diabetes,outpatient,3.4,4007.46,approved,yes,3.4,yes,yes
+967,88.0,female,private,hypertension,outpatient,2.5,,approved,no,2.3,yes,no
+968,18.0,female,public,unknown,outpatient,2.8,5657.34,denied,no,3.5,yes,yes
+971,73.0,male,public,unknown,outpatient,0.1,,pending,yes,4.3,yes,no
+972,79.0,male,public,diabetes,outpatient,2.3,5512.52,approved,yes,2.6,yes,yes
+973,49.0,female,public,unknown,inpatient,3.5,2021.81,pending,no,3.6,yes,yes
+974,47.0,female,private,diabetes,outpatient,4.1,928.09,pending,no,3.9,yes,yes
+976,66.0,male,private,heart disease,outpatient,6.1,1682.5,denied,no,3.4,yes,yes
+978,47.0,male,private,hypertension,inpatient,0.8,8262.29,approved,no,4.2,yes,yes
+979,33.0,female,public,diabetes,outpatient,6.4,5074.28,denied,no,3.8,yes,yes
+982,35.0,female,public,unknown,outpatient,0.4,5314.98,denied,no,2.8,yes,yes
+983,18.0,female,uninsured,diabetes,outpatient,0.2,4825.74,approved,no,4.3,yes,yes
+984,64.0,male,public,multiple,emergency,5.6,3651.2,pending,no,4.1,yes,yes
+985,83.0,female,public,unknown,emergency,0.2,3707.12,denied,no,4.0,yes,yes
+986,55.0,female,private,diabetes,emergency,1.0,540.3,denied,no,3.8,yes,yes
+987,68.0,female,private,diabetes,outpatient,0.3,200.0,denied,yes,2.3,yes,yes
+988,80.0,female,private,diabetes,emergency,1.1,3146.36,pending,no,4.9,yes,yes
+989,21.0,female,private,hypertension,outpatient,0.3,2233.43,denied,yes,,no,yes
+990,18.0,male,uninsured,unknown,outpatient,3.3,4672.16,approved,no,3.0,yes,yes
+991,25.0,male,public,diabetes,emergency,0.0,3894.36,approved,no,4.4,yes,yes
+992,46.0,male,private,hypertension,outpatient,5.7,1954.45,pending,no,4.0,yes,yes
+994,20.0,male,public,unknown,emergency,0.0,2663.53,approved,no,4.8,yes,yes
+995,49.0,male,private,hypertension,outpatient,6.8,7633.2,approved,no,3.5,yes,yes
+996,27.0,female,private,hypertension,outpatient,0.1,4272.48,approved,no,4.9,yes,yes
+997,51.0,female,public,unknown,outpatient,0.8,378.79,approved,no,4.2,yes,yes
+1000,67.0,male,private,diabetes,inpatient,2.2,1550.53,approved,yes,4.2,yes,yes
+972,79.0,male,public,diabetes,outpatient,2.3,5512.52,approved,no,2.6,yes,yes
