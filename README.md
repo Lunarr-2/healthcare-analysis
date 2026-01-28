@@ -135,9 +135,13 @@ healthcare-claims-analytics/
 │   ├── raw/
 │   └── processed/
 ├── notebook/
+│   └── healtcare_analysis.ipynb
 ├── sql/
+│   └── sql_queries.sql
 ├── tableau/
+│   └── healtcare dashboard.twb
 ├── images/
+│   └── healtcare dashboard.png
 └── README.md
 ```
 
