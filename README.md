@@ -146,7 +146,10 @@ healthcare-claims-analytics/
 ```
 
 ---
+<img width="1242" height="404" alt="Screenshot 2026-01-28 at 13 18 33" src="https://github.com/user-attachments/assets/3f9835c7-9787-47bb-b2c7-a07850b6c4d3" />
+<img width="1155" height="605" alt="Screenshot 2026-01-28 at 13 18 53" src="https://github.com/user-attachments/assets/ca6e02e5-09a1-46c9-a216-5183f174d3b6" />
 
+---
 ## How to Use
 
 1. Start with `healthcare_data_cleaning.ipynb`
